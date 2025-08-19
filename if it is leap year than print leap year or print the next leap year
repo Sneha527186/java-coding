@@ -1,0 +1,19 @@
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        if(num%4==0){
+System.out.println(num);
+        }
+        else{
+           int i=num%4;
+            int mid=4-i;
+            int res=num+mid;
+            System.out.println(res);
+        }
+            
+
+    }
+}
